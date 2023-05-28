@@ -1,0 +1,16 @@
+{{> nav}}
+
+    
+
+        <h1>Album for: {{item.[0].artists.[0].name}}</h1>
+        <main>
+        {{#each item}}
+        <div class="artistcontainer">
+        <div class="imgbox"><img src="{{images.[0].url}}" alt="" srcset=""></div>
+        <div class="artisttext">
+            <h2>{{name}}</h2>
+            <div><a href=""><button>View Tracks</button></a></div>
+        </div>
+        </div>
+        {{/each}}
+    </main>

@@ -1,0 +1,116 @@
+header {
+    background-image: url('../images/spotify-background.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+#whitebox{
+    background: rgba(0,0,0,0.5);
+    width: 50vw;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+}
+
+#inp-txt{
+    margin: 10px;
+    width: 30vw;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#inp-btn{
+    margin: 10px auto;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: firebrick;
+    border-style: none;
+}
+
+nav{
+    background-color: darkslategray;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-txt{
+    width: 40vw;
+    height: 4vh;
+}
+
+#nav-btn{
+    height: 4vh;
+    margin-left: 10px;
+    background-color: firebrick;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.artistcontainer{
+    padding: 30px;
+}
+
+.artistcontainer img{
+    width: 300px;
+    height: 300px;
+}
+
+.artisttext{
+    background-color: darkslategray;
+    width: 300px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.artisttext h2{
+    padding-bottom: 7px;
+}
+
+.imgbox{
+    height: 300px;
+}
+
+.artisttext button{
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+main{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
