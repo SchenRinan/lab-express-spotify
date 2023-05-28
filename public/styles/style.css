@@ -114,3 +114,14 @@ h1{
     padding-top: 30px;
     font-size: 30px;
 }
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+figcaption {
+    padding-left: 10vh;
+}
